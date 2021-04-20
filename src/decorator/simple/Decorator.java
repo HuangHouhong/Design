@@ -1,4 +1,4 @@
-package Decorator.simple;
+package decorator.simple;
 
 /**
  * 抽象装饰者

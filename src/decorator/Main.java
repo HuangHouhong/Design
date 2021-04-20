@@ -1,9 +1,9 @@
-package Decorator;
+package decorator;
 
-import Decorator.simple.Component;
-import Decorator.simple.ConcreteComponent;
-import Decorator.simple.ConcreteDecorator;
-import Decorator.simple.Decorator;
+import decorator.simple.Component;
+import decorator.simple.ConcreteComponent;
+import decorator.simple.ConcreteDecorator;
+import decorator.simple.Decorator;
 
 public class Main {
     public static void main(String[] args) {
