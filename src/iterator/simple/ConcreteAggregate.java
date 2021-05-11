@@ -3,8 +3,10 @@ package iterator.simple;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreteAggregate implements Aggregate {
-
+/**
+ * 具体容器
+ */
+public class ConcreteAggregate implements Aggregate<String> {
     private List<String> mList = new ArrayList<>();
 
     public void add(String item) {
